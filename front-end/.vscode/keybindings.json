@@ -1,0 +1,19 @@
+[
+  {
+    "key": "ctrl+alt+f",
+    "command": "editor.action.formatDocument",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+shift+f",
+    "command": "editor.action.formatSelection",
+    "when": "editorTextFocus && editorHasSelection && !editorReadonly"
+  }
+  ,
+  {
+    "key": "shift+alt+f",
+    "command": "editor.action.formatDocument",
+    "when": "editorTextFocus && !editorReadonly"
+  }
+]
+
